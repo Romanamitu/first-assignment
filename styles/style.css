@@ -329,3 +329,37 @@ body{
    .form button:hover{
     background-color: blue;
    }
+   .logo-section{
+    background-color:#ffffff ;
+    text-align: center;
+    padding: 60px 20px;
+   }
+   .footer-logo{
+    font-size: 100px;
+    font-weight: Black;
+    margin-bottom: 16px;
+    color: #4e47ff;
+   }
+   .subtext{
+    max-width: 600px;
+    margin: 0 auto 30px;
+    font-size: 14px;
+    color: #8987a1;
+    line-height: 1.6;
+   }
+   .footer-nav{
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
+    list-style: none;
+   }
+   .footer-nav li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #666;
+}
+.footer-nav li a:hover{
+    color: blue;
+}

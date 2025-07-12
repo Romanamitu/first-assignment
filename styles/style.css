@@ -49,4 +49,41 @@ body{
 .navbar .signup-btn:hover{
     background-color: blue;
 }
+.hero{
+    text-align: center;
+    padding: 95px 32px;
+    align-items: center;
+}
+.hero h1{
+    font-size: 65px;
+    max-width: 905px;
+    margin: 0 auto 32px;
+    color: #252432;
+}
+.hero .btn{
+    background-color: #4e47ff;
+    color: #ffffff;
+    width: 174;
+    height: 48;
+    gap: 16px;
+    text-align: center;
+    padding: 12px 36px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+}
+.hero.btn:hover{
+    background-color: blue;
+}
+.action{
+    width: 1140px;
+    height: 328px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+}
 
